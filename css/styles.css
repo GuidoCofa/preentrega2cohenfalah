@@ -77,5 +77,6 @@ footer{
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
+    cursor: pointer;
 }
