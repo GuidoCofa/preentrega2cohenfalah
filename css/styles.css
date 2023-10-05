@@ -30,3 +30,52 @@ footer{
     width: 100%;
     font-size: large;
 }
+
+.fondo{
+    background-color: rgb(108, 107, 107);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.grid-item {
+    border: 5px solid black; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.grid-item img {
+    width: 415px;
+    height: 270px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.modelo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 15px;
+    color: white;
+}
+
+.precio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: larger;
+}
+
+.boton{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px; 
+}
