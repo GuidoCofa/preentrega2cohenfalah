@@ -21,7 +21,7 @@
 }
 
 footer{
-    background-color: none;
+    background-color: black ;
     color: #fff;
     text-align: center;
     padding: 0.5px 0;
@@ -32,7 +32,7 @@ footer{
 }
 
 .fondo{
-    background-color: rgb(108, 107, 107);
+    background-color: rgb(189, 189, 189);
 }
 
 .grid-container {
@@ -41,12 +41,14 @@ footer{
     gap: 20px; 
     padding: 20px;
     margin-top: 120px;
+    
 }
 
 .grid-item {
     border: 5px solid black; 
     padding: 10px; 
     text-align: center;
+    background-color: rgb(156, 154, 154);
 }
 
 .grid-item img {
@@ -73,10 +75,17 @@ footer{
 }
 
 .boton{
-    background-color: red;
+    background-color: black;
     color: white;
     padding: 10px 10px;
     text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
+
+}
+
+.mapa{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
 }
