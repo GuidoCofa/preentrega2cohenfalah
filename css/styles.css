@@ -1,34 +1,34 @@
-*{
-    margin: 0px;
-    padding:0px;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#index{
+/* Estilos para el fondo de la página con el ID "index" */
+#index {
     background-image: url(https://s1.1zoom.me/b5050/830/2020_Czinger_21C_Night_Headlights_581064_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta el fondo para cubrir la altura completa de la pantalla */
 }
 
-.logoo{
-    width:  80px;
-    height: 80px;
+/* Estilos para el logotipo con la clase "logoo" */
+.logoo {
+    max-width: 100%;
+    width: 80px;
+    height: 80px; 
+    display: block;
+    margin: 0 auto; 
 }
 
-.titulo{
+/* Estilos para el título con la clase "titulo" */
+.titulo {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black ;
+    background-color: black;
     color: white;
-    
-}
-
-footer{
-    background-color: black ;
-    color: #fff;
-    text-align: center;
-    padding: 0.5px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: large;
+    padding: 10px;
+    font-size: 33px;
 }
 
 .fondo{
@@ -41,7 +41,6 @@ footer{
     gap: 20px; 
     padding: 20px;
     margin-top: 120px;
-    
 }
 
 .grid-item {
@@ -78,14 +77,240 @@ footer{
     background-color: black;
     color: white;
     padding: 10px 10px;
+    border-radius: 5px;
     text-decoration: none;
+}
+
+.boton:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+.mapa{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.card{
+    margin-left: 310px;
+    margin-top: 180px;
+}
+
+.card-text{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caja {
+    border: 3px solid white;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    margin-top: -333px;
+    margin-left: 650px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-weight: bolder;
+}
+
+.segund{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+.carru{
+    width: 600px;
+    height: 300px;
+    margin-top: -333px;
+    margin-left: 1270px;
+}
+
+.tachado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: larger;
+    text-decoration: line-through;
+}
+
+.textoform{
+    text-align: center;
+    color: #424242;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid black;
     border-radius: 5px;
 
 }
 
-.mapa{
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 500px;
-    height: 500px;
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.social-icons {
+    margin-top: 20px; 
+}
+
+.social-icons a {
+    font-size: 24px; 
+    margin: 0 10px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+footer{
+    background-color: black ;
+    color: #fff;
+    text-align: center;
+    padding: 0.5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+}
+
+/*____________________________________________________________*/
+
+/* Media Query para index.html */
+
+/* Media Query para dispositivos pequeños (577px a 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .titulo {
+        font-size: 28px;
+    }
+}
+/* Media Query para dispositivos medianos (769px a 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .titulo {
+        font-size: 32px;
+    }
+}
+/* Media Query para dispositivos grandes (más de 992px) */
+@media (min-width: 993px) {
+    .titulo {
+        font-size: 42px;
+    }
+}
+/*____________________________________________________________*/
+
+/* Media Query para nosotros.html */
+/* Estilos generales aquí */
+
+/* Media Query para dispositivos pequeños*/
+@media (min-width: 320px) and (max-width: 576px) {
+}
+
+/* Media Query para dispositivos medianos*/
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Media Query para dispositivos grandes*/
+@media (min-width: 769px) {
+}
+
+/* Media Query para dispositivos pequeños*/
+@media (min-width: 320px) and (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .logoo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+}
+
+/* Media Query para dispositivos medianos*/
+
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .logoo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .titulo {
+        font-size: 32px;
+    }
+}
+
+/* Media Query para dispositivos grandes*/
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        font-size: 20px;
+    }
+
+    .logoo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .titulo {
+        font-size: 36px;
+    }
+}
+
+/* Media Query para dispositivos extra grandes*/
+@media (min-width: 1025px) {
+    body {
+        font-size: 22px;
+    }
+
+    .logoo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .titulo {
+        font-size: 48px;
+    }
 }
